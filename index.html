@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/MA.png" />
+  <title>Muhammad Ahmed, Electrical Engineer</title>
+
+  <meta name="description" content="Electrical Engineering student at UofT specializing in embedded systems, FPGA design, and digital hardware.">
+  <meta name="keywords" content="Muhammad Ahmed, Electrical Engineering, FPGA, Embedded Systems, Verilog, C++, University of Toronto, Projects" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          - <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
++ <li class="nav__item"><a href="projects.html" class="nav__link">Projects</a></li>
+
+          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary"><span>Muhammad Ahmed</span></h1>
+        <p>Electrical and Computer Engineering Student at University of Toronto</p>
+        <a href="#contact" class="btn btn--primary">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Projects</h2>
+        <div class="work__boxes">
+
+          <!-- IQ Modulator -->
+          <div class="work__box" data-aos="fade-up">
+            <div class="work__text">
+              <h3>IQ Modulator</h3>
+              <p>Designed and implemented an IQ Modulator system using ATmega324PB and MCP4802 DAC to output synchronized I/Q sine waveforms with dynamic frequency control.</p>
+              <ul class="work__list">
+                <li>C Programming</li>
+                <li>SPI Communication</li>
+                <li>ATmega324PB</li>
+                <li>MCP4802 DAC</li>
+              </ul>
+              <div class="work__links">
+                <a href="GITHUB_URL_HERE" class="btn btn--primary btn--small" target="_blank">GitHub</a>
+                <a href="https://youtube.com/shorts/ltxoOfist9Q?si=4aEx9s9gxlmqng2q " class="btn btn--primary btn--small" target="_blank">Video Demo</a>
+              </div>
+            </div> 
+            <div class="work__image-box">
+              <img src="./images/Untitled drawing (17).png" class="work__image" alt="IQ Modulator Project" />
+            </div>
+          </div>
+
+          <!-- Quantum Circuit Visualizer -->
+          <div class="work__box" data-aos="fade-up">
+            <div class="work__text">
+              <h3>Quantum Circuit Visualizer</h3>
+              <p>Designed an interactive FPGA-based tool on DE1-SoC using VGA and PS/2 to visualize and simulate basic quantum circuits in real-time.</p>
+              <ul class="work__list">
+                <li>Verilog</li>
+                <li>Nios V</li>
+                <li>VGA Display</li>
+                <li>C Programming</li>
+              </ul>
+              <div class="work__links">
+                <a href="GITHUB_URL_HERE" class="btn btn--primary btn--small" target="_blank">GitHub</a>
+                <a href="https://drive.google.com/file/d/1zs84S7syiwwLpPiYiG_ydYeDh8zNORlE/view?usp=sharing" class="btn btn--primary btn--small" target="_blank">Video Demo</a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Quantum Circuit Project" />
+            </div>
+          </div>
+
+          <!-- Rescue Detection Robot -->
+          <div class="work__box" data-aos="fade-up">
+            <div class="work__text">
+              <h3>Rescue Detection Robot</h3>
+              <p>Built an AI-powered autonomous rover for disaster zones that detects survivors using YOLOv5 and PIR sensors, and transmits alerts wirelessly.</p>
+              <ul class="work__list">
+                <li>Arduino</li>
+                <li>YOLOv5</li>
+                <li>OpenCV</li>
+                <li>Python</li>
+              </ul>
+              <div class="work__links">
+                <a href="https://devpost.com/software/motion-detection-robot" class="btn btn--primary btn--small" target="_blank">GitHub</a>
+                <a href="https://www.youtube.com/watch?v=qqWwEFf17s0&ab_channel=TomoShinozaki " class="btn btn--primary btn--small" target="_blank">Video Demo</a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-2.png" class="work__image" alt="Rescue Robot Project" />
+            </div>
+          </div>
+
+          <!-- Dino Game -->
+          <div class="work__box" data-aos="fade-up">
+            <div class="work__text">
+              <h3>Dino Game on FPGA</h3>
+              <p>Developed a real-time Dino Game clone using Verilog for FPGA with VGA graphics, user controls via PS/2 keyboard, and memory-mapped sprite animation.</p>
+              <ul class="work__list">
+                <li>Verilog</li>
+                <li>FPGA</li>
+                <li>PS/2 Keyboard</li>
+                <li>VGA</li>
+              </ul>
+              <div class="work__links">
+                <a href="GITHUB_URL_HERE" class="btn btn--primary btn--small" target="_blank">GitHub</a>
+                <a href="YOUTUBE_URL_HERE" class="btn btn--primary btn--small" target="_blank">Video Demo</a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Dino Game Project" />
+            </div>
+          </div>
+          <div class="work__button-container">
+  <a href="projects.html" class="btn btn--primary">View All Projects →</a>
+</div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Gallery</h2>
+    <div class="client__logos-wrapper">
+  <div class="client__logos">
+    <img src="./images/Muhammad_image.jpg" class="client__logo" alt="Client 1" />
+    <img src="./images/IMG_8567.HEIC" class="client__logo" alt="Client 2" />
+    <img src="./images/bullseye.png" class="client__logo" alt="Client 3" />
+    <img src="./images/mighty-furnitures.png" class="client__logo" alt="Client 4" />
+    <img src="./images/fastlane.png" class="client__logo" alt="Client 5" />
+    <img src="./images/chippy.png" class="client__logo" alt="Client 6" />
+    <!-- Repeat some logos if you want it to loop smoothly -->
+    <img src="./images/Muhammad_image.jpg" class="client__logo" alt="Client 1" />
+    <img src="./images/goldengrid.png" class="client__logo" alt="Client 2" />
+  </div>
+</div>
+
+    </section>
+
+    <!-- ***** About ***** -->
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              I'm Muhammad Ahmed, a second-year Electrical Engineering student at the University of Toronto. I'm passionate about embedded systems, digital hardware design, and building efficient and creative engineering solutions using FPGAs, C/C++, and Verilog. I enjoy exploring how things work, working on cross-functional teams, and building systems from the ground up.
+            </p>
+            <a href="https://drive.google.com/file/d/1VBZZfUJ2o3wnuD-_Y6UHXLrTY32WC4-j/view?usp=sharing " class="btn btn--primary">My Resume</a>
+          </div>
+          <div class="about__photo-container">
+            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="Muhammad Ahmed Photo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Contact ***** -->
+    <section class="contact" id="contact">
+      <div class="row">
+        <h2>Get in Touch</h2>
+        <div class="contact__info">
+          <p>
+            Feel free to reach out if you'd like to collaborate, chat about embedded hardware, or just say hi! I'm always open to discussing ideas, exploring opportunities, or answering questions.
+          </p>
+          <a href="mailto:muhammadahmed3548@gmail.com" class="btn btn--primary">muhammadahmed3548@gmail.com</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Footer ***** -->
+    <footer role="contentinfo" class="footer">
+      <div class="row">
+        <ul class="footer__social-links">
+          <li class="footer__social-link-item">
+            <a href="https://github.com/Muhammadahmed-1" title="GitHub">
+              <img src="./images/github.svg" class="footer__social-image" alt="GitHub">
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a href="https://www.linkedin.com/in/muhammadahmed5954/" title="LinkedIn">
+              <img src="./images/linkedin.svg" class="footer__social-image" alt="LinkedIn">
+            </a>
+          </li>
+        </ul>
+        <p>&copy; 2025 - Designed and customized by Muhammad Ahmed.</p>
+      </div>
+    </footer>
+
+    <a href="#top" class="back-to-top" title="Back to Top">
+      <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+    </a>
+
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+  </main>
+
+</body>
+</html>

@@ -11,6 +11,9 @@
   <meta name="keywords" content="Muhammad Ahmed, Electrical Engineering, FPGA, Embedded Systems, Verilog, C++, University of Toronto, Projects" />
   <link rel="stylesheet" href="index.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,9 +23,8 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="projects.html" class="nav__link">Projects</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
           <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
           <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
@@ -30,105 +32,112 @@
     </div>
     <div class="header__text-box row">
       <div class="header__text">
-        <h1 class="heading-primary"><span>Muhammad Ahmed</span></h1>
-        <p>Electrical and Computer Engineering Student at University of Toronto</p>
-        <a href="#contact" class="btn btn--primary">Get in touch</a>
+        <div class="header__content">
+          <div class="header__image-container">
+            <img src="images/Muhammad_image.jpg" alt="Muhammad Ahmed" class="header__profile-image" />
+          </div>
+          <div class="header__text-content">
+            <h1 class="heading-primary"><span>Muhammad Ahmed</span></h1>
+            <p>Electrical and Computer Engineering Student at University of Toronto</p>
+            <a href="#contact" class="btn btn--primary">Get in touch</a>
+          </div>
+        </div>
       </div>
     </div>
   </header>
 
   <main role="main">
 
-    <!-- ***** Work ***** -->
-    <section class="work" id="work">
+    <!-- ***** Projects ***** -->
+    <section class="projects" id="projects">
       <div class="row">
         <h2>My Projects</h2>
-        <div class="work__boxes">
+        <div class="projects__boxes">
 
           <!-- IQ Modulator -->
-          <div class="work__box" data-aos="fade-up">
-            <div class="work__text">
+          <div class="projects__box" data-aos="fade-up">
+            <div class="projects__text">
               <h3>IQ Modulator</h3>
               <p>Designed and implemented an IQ Modulator system using ATmega324PB and MCP4802 DAC to output synchronized I/Q sine waveforms with dynamic frequency control.</p>
-              <ul class="work__list">
+              <ul class="projects__list">
                 <li>C Programming</li>
                 <li>SPI Communication</li>
                 <li>ATmega324PB</li>
                 <li>MCP4802 DAC</li>
               </ul>
-              <div class="work__links">
+              <div class="projects__links">
                 <a href="GITHUB_URL_HERE" class="btn btn--primary btn--small" target="_blank">GitHub</a>
                 <a href="https://youtube.com/shorts/ltxoOfist9Q?si=4aEx9s9gxlmqng2q" class="btn btn--primary btn--small" target="_blank">Video Demo</a>
               </div>
             </div> 
-            <div class="work__image-box">
-              <img src="images/Untitled drawing (17).png" class="work__image" alt="IQ Modulator Project" />
+            <div class="projects__image-box">
+              <img src="images/Untitled drawing (17).png" class="projects__image" alt="IQ Modulator Project" />
             </div>
           </div>
 
           <!-- Quantum Circuit Visualizer -->
-          <div class="work__box" data-aos="fade-up">
-            <div class="work__text">
+          <div class="projects__box" data-aos="fade-up">
+            <div class="projects__text">
               <h3>Quantum Circuit Visualizer</h3>
               <p>Designed an interactive FPGA-based tool on DE1-SoC using VGA and PS/2 to visualize and simulate basic quantum circuits in real-time.</p>
-              <ul class="work__list">
+              <ul class="projects__list">
                 <li>Verilog</li>
                 <li>Nios V</li>
                 <li>VGA Display</li>
                 <li>C Programming</li>
               </ul>
-              <div class="work__links">
+              <div class="projects__links">
                 <a href="GITHUB_URL_HERE" class="btn btn--primary btn--small" target="_blank">GitHub</a>
                 <a href="https://drive.google.com/file/d/1zs84S7syiwwLpPiYiG_ydYeDh8zNORlE/view?usp=sharing" class="btn btn--primary btn--small" target="_blank">Video Demo</a>
               </div>
             </div>
-            <div class="work__image-box">
-              <img src="images/project-1.png" class="work__image" alt="Quantum Circuit Project" />
+            <div class="projects__image-box">
+              <img src="images/project-1.png" class="projects__image" alt="Quantum Circuit Project" />
             </div>
           </div>
 
           <!-- Rescue Detection Robot -->
-          <div class="work__box" data-aos="fade-up">
-            <div class="work__text">
+          <div class="projects__box" data-aos="fade-up">
+            <div class="projects__text">
               <h3>Rescue Detection Robot</h3>
               <p>Built an AI-powered autonomous rover for disaster zones that detects survivors using YOLOv5 and PIR sensors, and transmits alerts wirelessly.</p>
-              <ul class="work__list">
+              <ul class="projects__list">
                 <li>Arduino</li>
                 <li>YOLOv5</li>
                 <li>OpenCV</li>
                 <li>Python</li>
               </ul>
-              <div class="work__links">
+              <div class="projects__links">
                 <a href="https://devpost.com/software/motion-detection-robot" class="btn btn--primary btn--small" target="_blank">GitHub</a>
                 <a href="https://www.youtube.com/watch?v=qqWwEFf17s0&ab_channel=TomoShinozaki" class="btn btn--primary btn--small" target="_blank">Video Demo</a>
               </div>
             </div>
-            <div class="work__image-box">
-              <img src="images/project-2.png" class="work__image" alt="Rescue Robot Project" />
+            <div class="projects__image-box">
+              <img src="images/project-2.png" class="projects__image" alt="Rescue Robot Project" />
             </div>
           </div>
 
           <!-- Dino Game -->
-          <div class="work__box" data-aos="fade-up">
-            <div class="work__text">
+          <div class="projects__box" data-aos="fade-up">
+            <div class="projects__text">
               <h3>Dino Game on FPGA</h3>
               <p>Developed a real-time Dino Game clone using Verilog for FPGA with VGA graphics, user controls via PS/2 keyboard, and memory-mapped sprite animation.</p>
-              <ul class="work__list">
+              <ul class="projects__list">
                 <li>Verilog</li>
                 <li>FPGA</li>
                 <li>PS/2 Keyboard</li>
                 <li>VGA</li>
               </ul>
-              <div class="work__links">
+              <div class="projects__links">
                 <a href="GITHUB_URL_HERE" class="btn btn--primary btn--small" target="_blank">GitHub</a>
                 <a href="YOUTUBE_URL_HERE" class="btn btn--primary btn--small" target="_blank">Video Demo</a>
               </div>
             </div>
-            <div class="work__image-box">
-              <img src="images/project-3.png" class="work__image" alt="Dino Game Project" />
+            <div class="projects__image-box">
+              <img src="images/project-3.png" class="projects__image" alt="Dino Game Project" />
             </div>
           </div>
-          <div class="work__button-container">
+          <div class="projects__button-container">
             <a href="projects.html" class="btn btn--primary">View All Projects →</a>
           </div>
 
@@ -136,26 +145,68 @@
       </div>
     </section>
 
-    <!-- ***** Clients ***** -->
-    <!--
-    <section class="client" id="clients">
+    <!-- ***** Experience ***** -->
+    <section class="experience" id="experience">
       <div class="row">
-        <h2>Gallery</h2>
-        <div class="client__logos-wrapper">
-          <div class="client__logos">
-            <img src="images/Muhammad_image.jpg" class="client__logo" alt="Client 1" />
-            <img src="images/IMG_8567.jpg" class="client__logo" alt="Client 2" />
-            <img src="images/bullseye.png" class="client__logo" alt="Client 3" />
-            <img src="images/mighty-furnitures.png" class="client__logo" alt="Client 4" />
-            <img src="images/fastlane.png" class="client__logo" alt="Client 5" />
-            <img src="images/chippy.png" class="client__logo" alt="Client 6" />
-            <img src="images/Muhammad_image.jpg" class="client__logo" alt="Client 1 repeat" />
-            <img src="images/goldengrid.png" class="client__logo" alt="Client 2 repeat" />
+        <h2>Experience</h2>
+        <div class="experience__content">
+          <div class="experience__item" data-aos="fade-up">
+            <div class="experience__header">
+              <h3>Research Assistant</h3>
+              <span class="experience__date">Summer2025 - Present</span>
+            </div>
+            <p class="experience__company">University Health Network (UHN), Motion & Adaptation Science LaboratoryUniversity of Toronto</p>
+            <p class="experience__description">
+              Spatially Distributed Sequential Stimulation Adaptor, Hardware Design
+
+            </p>
+            <ul class="experience__skills">
+              <li>Verilog</li>
+              <li>FPGA Development</li>
+              <li>Quantum Computing</li>
+              <li>Embedded Systems</li>
+            </ul>
+          </div>
+
+          <div class="experience__item" data-aos="fade-up">
+            <div class="experience__header">
+              <h3>Hardware Engineer </h3>
+              <span class="experience__date">2023 - 2024</span>
+            </div>
+            <p class="experience__company">University of Toronto Aerospace Team (UTAT)</p>
+            <p class="experience__description">
+              Hardware Design, PCB Design, Embedded Systems, and Software Development
+
+            </p>
+            <ul class="experience__skills">
+              <li>Digital Logic Design</li>
+              <li>Computer Architecture</li>
+              <li>Student Mentoring</li>
+              <li>Lab Instruction</li>
+            </ul>
+          </div>
+
+          <div class="experience__item" data-aos="fade-up">
+            <div class="experience__header">
+              <h3>...</h3>
+              <span class="experience__date">Summer 2023</span>
+            </div>
+            <p class="experience__company">Tech Startup</p>
+            <p class="experience__description">
+              Developed embedded systems for IoT devices using Arduino and C programming. 
+              Implemented sensor integration and wireless communication protocols.
+            </p>
+            <ul class="experience__skills">
+              <li>Arduino</li>
+              <li>C Programming</li>
+              <li>IoT Development</li>
+              <li>Sensor Integration</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
--->
+
     <!-- ***** About ***** -->
     <section class="about" id="about">
       <div class="row">

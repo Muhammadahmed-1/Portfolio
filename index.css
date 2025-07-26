@@ -493,6 +493,56 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+/* Header Social Media Icons */
+.header__social-links {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    justify-content: flex-start;
+}
+
+.header__social-link {
+    display: inline-block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.8;
+}
+
+.header__social-link:hover {
+    transform: translateY(-3px);
+    opacity: 1;
+}
+
+.header__social-image {
+    width: 2.4rem;
+    height: 2.4rem;
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
+}
+
+.header__social-link:hover .header__social-image {
+    filter: brightness(0) invert(1) drop-shadow(0 2px 4px rgba(255, 255, 255, 0.3));
+}
+
+/* Responsive design for header social icons */
+@media(max-width: 768px) {
+    .header__social-links {
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+}
+
+@media(max-width: 500px) {
+    .header__social-links {
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .header__social-image {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
 /* --------------------------------------- */
 /* ----- Projects ----- */
 /* --------------------------------------- */

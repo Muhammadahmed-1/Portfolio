@@ -187,22 +187,53 @@
       <div class="row">
         <h2>Experience</h2>
         <div class="experience__content">
-                    <div class="experience__item" data-aos="fade-up">
+                              <div class="experience__item experience__item--featured" data-aos="fade-up">
             <div class="experience__header">
               <h3>Summer Researcher – Motion Adaptation Lab</h3>
               <span class="experience__date">May 2025 - Present</span>
             </div>
-            <p class="experience__company">University Health Network (UHN)</p>
-            <p class="experience__description">
-              Developing Sequential Distributed Stimulation System (SDSS) adapter for functional electrical stimulation (FES). Focused on hardware design, pulse detection, and switching using STM32 microcontroller. Collaborated with clinical researchers to ensure device safety and usability.
-          
-            </p>
+            <p class="experience__company">KITE Research Institute, University Health Network (UHN)</p>
+            <div class="experience__highlight">
+              <span class="experience__highlight-text">Featured Project: Spatially Distributed Sequential Stimulation(SDSS) Hardware Adapter Design</span>
+            </div>
+            
+            <div class="experience__content-wrapper">
+              <div class="experience__text-content">
+                <p class="experience__description">
+                  Leading the development of a breakthrough Spatially Distributed Sequential Stimulation (SDSS) Hardware Adapter that revolutionizes Functional Electrical Stimulation (FES) therapy. This innovative system solves a critical problem in rehabilitation by intelligently distributing stimulation pulses across multiple electrodes, dramatically reducing muscle fatigue and extending therapy sessions.
+                </p>
+                <p class="experience__description">
+                  Technical Implementation: Designed sophisticated pulse detection circuitry using voltage dividers, clamping diodes, and signal amplifiers. Developed real-time STM32 firmware with external interrupt handling for precise timing control. Selected high-voltage analog switch for output routing and implemented pulse detection and channel cycling logic in C. Completed full schematic in Altium Designer and currently working on PCB layout with careful isolation of analog/digital domains and high-voltage safety considerations.
+                </p>
+                <p class="experience__description">
+                  Impact: This system addresses the fundamental limitation of standard FES devices that repeatedly stimulate the same muscle group, causing premature fatigue. By sequentially distributing pulses across multiple electrodes, it simulates more natural muscle activation patterns, significantly improving rehabilitation outcomes for patients with spinal cord injuries or neurological conditions.
+                </p>
+              </div>
+              
+              <div class="experience__slideshow">
+                <div class="slideshow-container">
+                  <div class="slide fade">
+                    <img src="images/Screenshot 2025-07-29 042442.png" alt="SDSS Adapter Screenshot" class="slideshow-image" />
+                    <p class="slideshow-caption">SDSS Adapter Design Screenshot</p>
+                  </div>
+                  <div class="slide fade">
+                    <img src="images/WhatsApp Image 2025-07-24 at 16.53.49_b1e93a40.jpg" alt="FES Electrodes on Forearm" class="slideshow-image" />
+                    <p class="slideshow-caption">FES Electrodes Applied to Forearm</p>
+                  </div>
+                </div>
+                <div class="slideshow-dots">
+                  <span class="dot active" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                </div>
+              </div>
+            </div>
+            
             <ul class="experience__skills">
+              <li>Hardware Design (Analog Signal Conditioning)</li>
+              <li>Embedded Programming (STM32, C)</li>
+              <li>Schematic Capture & PCB Layout (Altium Designer)</li>
               <li>Biomedical Engineering</li>
-              <li>Functional Electrical Stimulation</li>
-              <li>STM32 Microcontroller</li>
-              <li>Hardware Design</li>
-              <li>Clinical Research</li>
+              <li>Clinical Research Collaboration</li>
             </ul>
           </div>
 

@@ -1459,3 +1459,14 @@ section {
 @media (min-width: 900px) {
   .pdf-embed { aspect-ratio: 3 / 2; }  /* slightly taller */
 }
+
+.project-images {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.project-images img {
+  width: 48%;   /* keeps them equal size side-by-side */
+  border-radius: 8px;
+}
